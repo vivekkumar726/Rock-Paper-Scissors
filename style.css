@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    height: 5rem;
+    line-height: 5rem;
+    background-color: black;
+    color: aliceblue;
+}
+.game{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    padding: 3rem;
+}
+.choice:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 2rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline;
+    border-radius: 1rem;
+}
